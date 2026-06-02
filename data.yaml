@@ -1,0 +1,10 @@
+path: C:/Users/hp/Downloads/Obraz/Dataset_no_person_glasses
+
+train: train/images
+val: val/images
+
+names:
+  0: helmet
+  1: mask
+  2: boots
+  3: gloves
