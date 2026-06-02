@@ -6,7 +6,7 @@ MODEL_PATH = r"C:\Users\hp\Downloads\Obraz\best.onnx"  # IMPORTANT: use ONNX
 
 model = YOLO(MODEL_PATH)
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture("demo.mp4")
 
 if not cap.isOpened():
     print("Camera error")
